@@ -7,15 +7,15 @@
 menu:
   主页: /
   所有文章: /archives/
-  #随笔: /tags/随笔
   标签云: /tags/
+  #随笔: /tags/随笔
   #关于我: /about/
 
 # Link to your avatar | 填写头像地址
 avatar: "http://7xpy0e.com1.z0.glb.clouddn.com/avatar.jpg" 
 
 # Small icon of Your site | 站点小图标地址
-favicon: /favicon.png
+favicon: /img/favicon.ico
 
 # Social info. Bar | 社交信息展示
 ## Keep "mailto:" in Email | 设置 Email 时保留 "mailto:"
@@ -25,10 +25,9 @@ favicon: /favicon.png
 
 subnav:
   Email: "mailto:lizhencoder@gmail.com" 
-  新浪微博: "http://weibo.com/2537575907" 
-  GitHub: "https://github.com/LiZhenNet"
-  #V2EX: "#"
   RSS: "/atom.xml"
+  #GitHub: ""
+  #V2EX: "#"
   #知乎: "zhihu"
   #豆瓣: "douban"
   #简书: "jianshu"
@@ -114,7 +113,7 @@ toc_nowrap: false
 
 # 自定义"阅读全文"链接按钮的显示文字
 # Customize the text on excerpt link
-excerpt_link: more
+excerpt_link: 全文
 
 # 是否显示边栏中的搜索框（仅样式，未添加搜索功能）
 # Search Box in left column
