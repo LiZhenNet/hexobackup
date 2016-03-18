@@ -1,4 +1,4 @@
-title: "'JavaScript的原型链'"
+title: "JavaScript的原型链"
 date: 2016-02-19 14:16:09
 description: "涉及到继承这一块，Javascript只有一种结构，那就是：对象。在 javaScript中，每个对象都有一个指向它的原型（prototype）对象的内部链接。这个原型对象又有自己的原型，直到某个对象的原型为 null 为止（也就是不再有原型指向），组成这条链的最后一环。这种一级一级的链结构就称为原型链（prototype chain）。"
 categories: JavaScript
@@ -98,3 +98,4 @@ tags:
 
 ## 参考文章
 1.[田小计划：彻底理解JavaScript原型](http://www.cnblogs.com/wilber2013/p/4924309.html)
+2.[MDN:继承与原型链](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript/Inheritance_and_the_prototype_chain)
