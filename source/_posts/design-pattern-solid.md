@@ -64,8 +64,7 @@ public interface IBook
 ### 定义
 > 如果对每一个类型为S的对象o1，都有类型为T的对象o2，使得以T定义的所有程序P在所在的对象o1都代换为o2时，
 > 程序P的行为没有发生变化，那么类型S是类型T的子类型。   
-> If for each object o1 of type S there is an object o2 of type T such that for all programs P defined in terms of T, 
-> the behavior of P is unchanged when o1 is substituted for o2 then S is a subtype of T
+> If for each object o1 of type S there is an object o2 of type T such that for all programs P defined in terms of T,the behavior of P is unchanged when o1 is substituted for o2 then S is a subtype of T
 
 ### 解释
   简单的解释上面的定义就是程序P中含有类型T，当我们使用T的子类型S，替换类型T时，程序P的行为没有变化，也就是说，在软件开发过程中，
@@ -76,6 +75,7 @@ public interface IBook
 ### 定义
 > 一个对象应该对其他对象有最少的了解
 > Only talk to your immediate friends
+
 ### 解释
  迪米特法则也叫最少知识原则，指的是一个对象应当对其他对象有尽可能少的了解。
 也就是说，一个对象应尽量少的与其他对象之间发生相互作用，使得对象相对独立，这样当一个对象需要修改时，影响其他对象就会越少，扩展起来更加容易。
