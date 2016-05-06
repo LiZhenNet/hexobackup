@@ -7,8 +7,8 @@ title: 三流程序猿
 subtitle: 动物园里的三流程序猿  
 description: .Net,Csharp,MySQL,JavaScript,Java 
 author: 三流程序猿  
-language: zh-Hans  
-timezone: 
+language: zh-CN  
+timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -63,7 +63,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: http://hexo.io/plugins/
 ## Themes: http://hexo.io/themes/
-theme: yelee 
+theme: icarus 
 
 # Deployment
 ## Docs: http://hexo.io/docs/deployment.html
@@ -82,6 +82,6 @@ deploy:
 backup:
     type: git 
     message: backup blog 
-    theme: yelee 
+    theme: icarus 
     repository:
        github: git@github.com:LiZhenNet/hexobackup.git,master 
