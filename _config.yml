@@ -4,7 +4,7 @@
 
 # Site
 title: 三流程序猿  
-subtitle: 动物园里的三流程序猿  
+subtitle: 三流程序猿  
 description: .Net,Csharp,MySQL,JavaScript,Java 
 author: 三流程序猿  
 language: zh-CN  
@@ -85,3 +85,23 @@ backup:
     theme: icarus 
     repository:
        github: git@github.com:LiZhenNet/hexobackup.git,master 
+       
+jsonContent:
+  meta: true
+  keywords: false 
+  posts:
+    title: true
+    slug: true
+    date: true
+    updated: true
+    comments: true
+    path: true
+    link: true
+    permalink: true
+    excerpt: true
+    keywords: true # but only if root keywords option language was set
+    text: true
+    raw: false
+    content: false
+    categories: true
+    tags: true
