@@ -5,6 +5,8 @@ categories: JavaScript
 tags: 
 - JavaScript
 ---
+Javascript是一种基于对象（object-based）的语言，你遇到的所有东西几乎都是对象。但是，它又不是一种真正的面向对象编程（OOP）语言，因为它的语法中没有class（类）。
+<!-- more -->
 **主要是提取了阮一峰老师文章，欢迎大家点击下面的参考文章阅读原文**
 
 Javascript是一种基于对象（object-based）的语言，你遇到的所有东西几乎都是对象。但是，它又不是一种真正的面向对象编程（OOP）语言，因为它的语法中没有class（类）。

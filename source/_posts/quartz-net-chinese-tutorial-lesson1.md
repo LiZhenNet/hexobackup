@@ -5,7 +5,8 @@ description: "Quartz.NET中文开发指南 Lesson 1:快速使用Quartz.NET"
 tags:
 - Quartz.NET
 ---
-
+Quartz.NET中文开发指南 Lesson 1:快速使用Quartz.NET
+<!-- more -->
 ## Lesson 1: 使用Quartz
 
 在你使用scheduler之前，你应该使用ISchedulerFactory的实例来实例化一个scheduler。一旦scheduler被实例化，它可以被启动（started），或者置于准备（stand-by）状态，或者关闭（shutdown）。  

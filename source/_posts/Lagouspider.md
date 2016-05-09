@@ -7,7 +7,8 @@ tags:
 - 爬虫
 - MongoDB
 ---
-
+Github地址：https://github.com/LiZhenNet/GetJobsFromLagou
+<!-- more -->
 **先放Github 地址：[https://github.com/LiZhenNet/GetJobsFromLagou](https://github.com/LiZhenNet/GetJobsFromLagou)**
 ### 主要功能
  1. 使用方式GitHub README上有介绍

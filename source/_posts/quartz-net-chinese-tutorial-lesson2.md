@@ -5,6 +5,8 @@ description: "Quartz.NET中文开发指南 Lesson 2:Jobs And Triggers"
 tags:
 - Quartz.NET
 ---
+Quartz.NET中文开发指南 Lesson 2:Jobs And Triggers
+<!-- more -->
 ## Lesson 2: Jobs And Triggers
 
 ### Quartz API

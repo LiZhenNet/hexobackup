@@ -6,6 +6,8 @@ tags:
 - JavaScript
 ---
 涉及到继承这一块，Javascript只有一种结构，那就是：对象。在 javaScript中，每个对象都有一个指向它的原型（prototype）对象的内部链接。这个原型对象又有自己的原型，直到某个对象的原型为 null 为止（也就是不再有原型指向），组成这条链的最后一环。这种一级一级的链结构就称为原型链（prototype chain）。
+<!-- more -->
+涉及到继承这一块，Javascript只有一种结构，那就是：对象。在 javaScript中，每个对象都有一个指向它的原型（prototype）对象的内部链接。这个原型对象又有自己的原型，直到某个对象的原型为 null 为止（也就是不再有原型指向），组成这条链的最后一环。这种一级一级的链结构就称为原型链（prototype chain）。
 ## prototype和__proto__
 - prototype是函数的一个属性，这个属性表示该对象的原型对象。
 - 为了方便查看一个对象的原型，Firefox和Chrome中提供了"__proto__"这个非标准（不是所有浏览器都支持）的访问器（ECMA引入了标准对象原型访问器"Object.getPrototype(object)"）
