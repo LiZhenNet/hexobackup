@@ -1,14 +1,10 @@
 title: "设计模式-创建型模式(单例、工厂、创建者、原型)"
 date: 2016-04-06 15:31:11
-categories: 设计模式 
+categories: 设计模式
 description: "设计模式-创建型模式：单例模式、简单工厂模式、抽象工厂、创建者模式、原型模式"
 tags:
 - 设计模式
 - 面向对象
-- 单例模式
-- 工厂模式
-- 创建者模式
-- 原型模式
 ---
 设计模式-创建型模式：单例模式、简单工厂模式、抽象工厂、创建者模式、原型模式
 <!-- more -->
@@ -40,27 +36,27 @@ tags:
 上述代码为单例最简单的实现，但是如果执行过程的不同线程同时进入 Instance 属性 get 方法，那么可能会创建多个 Singleton 对象实例。  
 下面利用 Double-Check Locking 实现线程安全的单例：
 ```csharp
-    public class Singleton 
-    { 
-    private static volatile Singleton instance; 
-    private static object syncRoot = new Object(); 
-    private Singleton() {} 
-    public static Singleton Instance 
-    { 
+    public class Singleton
+    {
+    private static volatile Singleton instance;
+    private static object syncRoot = new Object();
+    private Singleton() {}
+    public static Singleton Instance
+    {
         get  
-        { 
+        {
             if (instance == null)  
-            { 
+            {
                 lock (syncRoot)  
-                { 
+                {
                 if (instance == null)  
-                    instance = new Singleton(); 
-                } 
-            } 
-            return instance; 
-        } 
-    } 
-    } 
+                    instance = new Singleton();
+                }
+            }
+            return instance;
+        }
+    }
+    }
 ```
 ### 好处
 1. 单例模式在内存中只有一个实例，减少了内存开支
@@ -102,7 +98,7 @@ tags:
                 default:
                     throw new ArgumentException("DbType 无效");
             }
-        } 
+        }
     }
 ```
 上述代码为简单工厂模式的实现，DbConnection为抽象产品，MsConnection和OracleConnection为具体产品，由DbFactory(工厂)来统一创建。  
@@ -232,7 +228,7 @@ tags:
             return new Linuxvideo();
         }
     }
-    
+
     AbstractFactory windowsFactory = new WindowsFactory();
     picture windowsPicture = windowsFactory.GetPicture();
     windowsPicture.show();
@@ -243,7 +239,7 @@ tags:
     linuxPicture.show();
     video linuxVideo = linuxFactory.GetVideo();
     linuxVideo.show();
-    
+
 ```
 抽象方法的实现是跟上述的工厂方法模式的升级版，当产品有多个业务品种、业务分类时，就需要通过抽象工厂模式来实现。
 
@@ -293,7 +289,7 @@ tags:
             builder.addpartB();
         }
     }
-    
+
    Director director = new Director();
    AbstractBuilder builder = new ConcreteBuilder();
    director.Construct(builder);

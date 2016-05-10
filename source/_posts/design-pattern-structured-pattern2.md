@@ -1,12 +1,10 @@
 title: "设计模式-结构型模式2(享元、桥接、装饰)"
 date: 2016-05-09 12:05:56
-categories: 设计模式 
+categories: 设计模式
 description: "设计模式-创建型模式2：享元模式、桥接模式、装饰模式"
 tags:
-
-- 享元模式
-- 桥接模式
-- 装饰模式
+- 设计模式
+- 面向对象
 ---
 
 设计模式-创建型模式：享元模式、桥接模式、装饰模式
@@ -156,7 +154,7 @@ tags:
     Abstraction abs = new RefinedAbstraction(imp);
     //执行行文
     abs.request();
-    
+
 ```
 
 ### 优点
@@ -235,7 +233,7 @@ tags:
             base.call();
         }
     }
-    
+
     Phone phone = new AndroidPhone();
     phone = new ConcreteDecorator(phone);
     phone.call();
